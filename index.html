@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<META charset="utf-8">
+	<TITLE>프로젝트1</TITLE>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Noto+Sans+KR:wght@100;300;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+	<STYLE type="text/css">
+		div{padding-top: 0px; 
+			font-family: 'Lato', sans-serif;
+			font-size: 30px;
+			font-weight: 300;}
+		div2{padding-top: 0px; 
+			font-family: 'Lato', sans-serif;
+			font-size: 50px;
+			font-weight: 100;
+			color: white;
+			padding-left: 18px;
+			padding-top: 18px;}
+		body{background: lightgray;}
+		body{background: lightgray;}
+		header, body, h1, h2, img, p, ol, li, ul, hr{margin:0; padding: 0;}
+		img{display:block; 
+			width:800px; 
+			left: auto;}
+		a{text-decoration: none;
+			color: black;}
+		header{height:50px;}
+		header h1{text-align: left;
+			padding-top: 0px; 
+			font-family: 'Lato', sans-serif;
+			font-size: 30px;
+			font-weight: 700;}
+		header h2{padding-top: 0px; 
+			font-family: 'Lato', sans-serif;
+			font-size: 30px;
+			font-weight: 300;}
+		nav{height: 50px;}
+		nav ul{width: 900px;
+			height: 50px;
+			float: right;
+			margin-right: 0px;}
+		nav ul li{list-style-type: none;
+			width: 25%;
+			float: left;
+			text-align: center;
+			height: 50px;
+			line-height: 50px;}
+		section{width: 100%; display: flex;}
+		section h1{text-align: left;
+			padding-top: 0px; 
+			font-family: 'Lato', sans-serif;
+			font-size: 30px;
+			font-weight: 300;}
+		footer{padding-top: 50px; 
+			height: 200px;text-align: center; 
+			font-size: 16px;}
+		footer h1{font-family: 'Lato', sans-serif;
+			font-size: 16px;
+			font-weight: 400;}
+		.text{width: 25%; height: 500px; font-family: 'Lato', sans-serif; font-size: 20px; font-weight: 300;  line-height: 1.5; padding-left: 30px; padding-top: 30px;}
+		.textkr{width: 25%; height: 500px; font-family: 'Noto Sans KR', sans-serif; font-size: 20px; font-weight: 300; line-height: 1.5; padding-top: 30px;}
+		.ctnts{width: 25%; height: 290px; font-family: 'Noto Sans KR', sans-serif; font-size: 20px; font-weight: 300; line-height: 1.5; padding-left: 30px; padding-top: 30px;}
+		.line{width: 1px; height: 530px; background: black;}
+		.line2{width: 1px; height: 320px; background: black;}
+		.line3{width: 1px; height: 620px; background: black;}
+		.main{background: url('main.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 50%; height: 530px;}
+		.info{background: url('info.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 320px; padding-left: 7.5px; background-position: 0px -100px;}
+		.info2{background: url('info2.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 320px; padding-left: 7.5px; ackground-position: 0px -500px;}
+		.info3{background: url('info3.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 320px; padding-left: 7.5px; background-position: 0px -60px;}
+		.info4{background: url('info4.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 320px; padding-left: 7.5px; background-position: 0px -170px;}
+		.info5{background: url('info5.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 320px; padding-left: 7.5px; ackground-position: 0px -100px;}
+		.info6{background: url('info6.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 320px; padding-left: 7.5px; background-position: 0px -170px;}
+		.location{background: url('location.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 50%; height: 530px;}
+		.pic{background: url('pic.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 0px; }
+		.pic2{background: url('pic2.jpg'); background-size: 120% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; ackground-position: 0px 0px;}
+		.pic3{background: url('pic3.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 0px;}
+		.pic4{background: url('pic4.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 0px;}
+		.pic5{background: url('pic5.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 0px;}
+		.pic6{background: url('pic6.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 0px;}
+		.pic7{background: url('pic7.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 0px;}
+		.pic8{background: url('pic8.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 0px;}
+		.pic9{background: url('pic9.png'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 50px;}
+		.pic10{background: url('pic10.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 0px;}
+		.pic11{background: url('pic11.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 0px;}
+		.pic12{background: url('pic12.jpg'); background-size: 100% auto; background-repeat: no-repeat; width: 25%; height: 620px; padding-left: 7.5px; background-position: 0px 0px;}
+		.logo{height: 50px;
+			line-height: 50px;
+			width: 350px;
+			float: left;
+			text-align: center; padding-left: 30px}	
+	</STYLE>
+</HEAD>
+<BODY>
+	<HEADER> 
+		<NAV>
+			<DIV class="logo">
+				<H1><A href="index.html">SEHAN MATH STUDIO</A></H1></DIV>
+		<UL><H2><LI><a href="#1">INFO</a></LI>
+			<LI><a href="#2">LOCATION</a></LI>
+			<LI><a href="#3">WHAT WE DO</a></LI>
+			<LI><a href="mailto:limmh617@gmail.com">CONTACT</a></LI>
+			</UL></H2>
+		</NAV>
+	</HEADER>
+		<HR color=black size=1>
+
+	<SECTION>
+		<SECTION class="text">SaeHan Math Studio is operating to answer <BR>the creative needsof students majoring<BR>in design by providing workspaces,<BR>equipments, community.</SECTION>
+		<SECTION class="textkr">새한수학작업실은 작업공간, 장비, 커뮤니티 등을<BR>제공해 디자인 전공 학생들의 창의적 요구의<BR>충족을 위해 운영중이다.</SECTION>
+		<SECTION class="line"></SECTION>
+		<SECTION class="main"></SECTION>
+	</SECTION>
+		<HR color=black size=1>
+
+	<SECTION>
+		<DIV class="logo" id="1"><H1>INFO</H1></DIV>
+	</SECTION>
+		<HR color=black size=1>
+
+	<SECTION>
+		<SECTION class="info"></SECTION>
+		<SECTION class="line2"></SECTION>
+		<SECTION class="info2"></SECTION>
+		<SECTION class="line2"></SECTION>
+		<SECTION class="info3"></SECTION>
+		<SECTION class="line2"></SECTION>
+		<SECTION class="ctnts"><B><DIV>01</DIV></B><BR><BR>2019년 공릉에 자리 잡은 새한수학작업실은<BR>작업공간에 대한 수요가 곂친 6명의 학생이<BR>시작했다.<BR><BR>(원래 자리했던 학원의 이름을 그대로<BR>사용해 새한수학작업실이 되었다.)<BR></SECTION>
+	</SECTION>
+		<HR color=black size=1>
+
+	<SECTION>
+		<SECTION class="info4"></SECTION>
+		<SECTION class="line2"></SECTION>
+		<SECTION class="info5"></SECTION>
+		<SECTION class="line2"></SECTION>
+		<SECTION class="info6"></SECTION>
+		<SECTION class="line2"></SECTION>
+		<SECTION class="ctnts"><B><DIV>02</DIV></B><BR><BR>현재는 구성원이 늘어 총 9명이다.<BR>VD 7명, ID 1명, 달팽이 한마리로 구성<BR>중이다.</SECTION>
+	</SECTION>
+		<HR color=black size=1>
+
+	<SECTION>
+		<DIV class="logo" id="2"><H1>LOCATION</H1></DIV>
+	</SECTION>
+		<HR color=black size=1>
+
+
+	<SECTION>
+		<SECTION class="text">Address<BR><BR>01819<BR>3rd floor, Gongneung-dong 238-34,<BR>Nowon-gu, Seoul<BR><BR><BR><BR>Near Station<BR><BR>Hwarangdae<BR>Taereung<BR>Gongneung</SECTION>
+		<SECTION class="textkr">주소<BR><BR>01819<BR>서울시 노원구 공릉동 238-34<BR>3층<BR><BR><BR><BR>인근 역<BR><BR>화랑대역<BR>태릉입구역<BR>공릉역</SECTION>
+		<SECTION class="line"></SECTION>
+		<SECTION class="location"></SECTION>
+	</SECTION>
+		<HR color=black size=1>
+
+
+	<SECTION>
+		<DIV class="logo" id="3"><H1>WHAT WE DO</H1></DIV>
+	</SECTION>
+		<HR color=black size=1>
+
+	<SECTION>
+		<SECTION class="pic"><DIV2>PHOTOGRAPH</DIV2></SECTION>
+		<SECTION class="line3"></SECTION>
+		<SECTION class="pic2"></SECTION>
+		<SECTION class="line3"></SECTION>
+		<SECTION class="pic3"></SECTION>
+		<SECTION class="line3"></SECTION>
+		<SECTION class="pic4"></SECTION>
+	</SECTION>
+		<HR color=black size=1>
+	<SECTION>
+		<SECTION class="pic5"><DIV2><FONT color=black>ILLUSTRATION</FONT></DIV2></SECTION>
+		<SECTION class="line3"></SECTION>
+		<SECTION class="pic6"></SECTION>
+		<SECTION class="line3"></SECTION>
+		<SECTION class="pic7"></SECTION>
+		<SECTION class="line3"></SECTION>
+		<SECTION class="pic8"></SECTION>
+	</SECTION>
+		<HR color=black size=1>
+	<SECTION>
+		<SECTION class="pic9"><DIV2><FONT color=black>BI/UX</FONT></DIV2></SECTION>
+		<SECTION class="line3"></SECTION>
+		<SECTION class="pic10"></SECTION>
+		<SECTION class="line3"></SECTION>
+		<SECTION class="pic11"><DIV2><FONT color=black>???</FONT></DIV2></SECTION>
+		<SECTION class="line3"></SECTION>
+		<SECTION class="pic12"></SECTION>
+	</SECTION>
+		<HR color=black size=1>
+
+	<FOOTER>
+			<H1>2020 ⓒ 새한수학작업실</H1>
+	</FOOTER>
+</BODY>
+</HTML>
